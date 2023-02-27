@@ -1,0 +1,25 @@
+@import url(../../index.css);
+
+.menu-item {
+    background-color: var(--azul-main);
+    padding: 1em;
+    font-family: var(--fonte-main);
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.menu-item span:nth-child(n +1) {
+    background-color: #FFFFFF;
+    padding: 0.5px;
+    width:150px;
+}
