@@ -1,6 +1,7 @@
 import Header from './componentes/Header';
 import Banner from './componentes/Banner'
 import MainSection from './componentes/MainSection'
+import LineupSection from './componentes/LineupSection';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Header/>
       <Banner/>
       <MainSection/>
-
+      <LineupSection/>
     </div>
 
   );

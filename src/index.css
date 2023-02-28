@@ -7,9 +7,11 @@
   --amarelo: #FACF9D;
   --azul-claro: #C8DEEF;
   --cinza: #444444;
+  --mostarda: #DF9010;
 }
 
 body {
+  width: 100vw;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient( var(--azul-claro),var(--amarelo));
+  
 }
 
 code {

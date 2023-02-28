@@ -1,0 +1,12 @@
+@import url(../../index.css);
+
+.date {
+    margin-top: 2.5em;
+    background-color: var(--mostarda);
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-size: 32px;
+}

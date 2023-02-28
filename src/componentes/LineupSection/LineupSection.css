@@ -1,0 +1,21 @@
+@import url(../../index.css);
+
+.LineUp {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte-main);
+    color: var(--cinza);
+    margin: 0 35px;
+
+}
+
+.LineUp__title {
+    
+    font-family: var(--fonte-title);
+    font-size: 3em;
+    font-weight: 400;
+
+}
