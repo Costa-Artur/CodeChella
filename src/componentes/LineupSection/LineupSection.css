@@ -19,3 +19,9 @@
     font-weight: 400;
 
 }
+
+.LineUp__img {
+    width: 100vw;
+    margin-top: 50px;
+    opacity: 0.7;
+}

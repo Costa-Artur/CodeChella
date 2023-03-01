@@ -2,6 +2,7 @@ import React from "react";
 import './LineupSection.css'
 import Date from '../Date'
 import {Principal, Quarto, Secundario, Terceiro} from '../LineUp'
+import LineUpImg from './img/Frame 1.png'
 
 const LineupSection = () => {
 
@@ -36,6 +37,7 @@ const LineupSection = () => {
             <Quarto Nome="Kylie MiLOG"/>
             <Quarto Nome="Jenkins Brothers"/>
             <Quarto Nome="Rubycat Dolls"/>
+            <img src={LineUpImg} alt="Pessoas em um festival de música" className="LineUp__img"/>
         </section>
     )
 

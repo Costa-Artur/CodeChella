@@ -1,0 +1,23 @@
+@import url(../../index.css);
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    font-family: var(--fonte-main);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cinza);
+    line-height: 40px;
+}
+
+.footer__img {
+    width: 65vw;
+}
+
+.footer__link {
+    margin: 0 10px;
+}
